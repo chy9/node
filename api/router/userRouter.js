@@ -1,6 +1,6 @@
 
 const express = require("express");
-const router = express();
+const router = express.Router();
 const mail = require("../module/mail");
 const utils = require("../util/utils");
 const userDB = require("../db/module/personnelModel");
